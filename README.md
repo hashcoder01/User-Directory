@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 📒 User Directory App
 
 A Flutter app that fetches and displays random user profiles from the Random User API in a modern dark-themed grid layout.
@@ -44,3 +45,6 @@ Hash Coder
 This project is licensed under the MIT License.
 
 
+=======
+# User-Directory
+>>>>>>> f08d638a61314020e19d1477c129798d5632c154
