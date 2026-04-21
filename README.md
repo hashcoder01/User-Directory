@@ -1,50 +1,39 @@
-<<<<<<< HEAD
-📒 User Directory App
+**📒 User Directory App******
 
-A Flutter app that fetches and displays random user profiles from the Random User API in a modern dark-themed grid layout.
-
+A Flutter application that fetches and displays random user profiles from the Random User API in a modern dark-themed grid layout.
 
 ✨ Features
-•	Fetches 50 random users from API
+- Fetches 50 random users from API
+- Clean 2-column grid layout
+- Displays profile image, name, and email
+- Pull-to-refresh functionality
+- Loading indicator during API calls
+- Error handling with retry option
+- Dark themed UI
+  
+**🛠️ Tech Stack**
+Flutter & Dart (UI + Logic)
+HTTP Package (API calls)
+Random User API (Data source)
 
-•	Clean 2-column grid layout
-
-•	Shows profile image, name, and email
-•	Refresh, loading, and error handling
-•	Dark themed UI
-
-
-🛠️ Tech Stack
-•	TechnologyUsageFlutter & DartUI + LogicHTTP PackageAPI callsRandom User APIData source
-
-
-📁 Project Structure
+**📁 Project Structure**
 lib/
 ├── main.dart
 ├── model/
 │   └── DataModel.dart
 └── screens/
     └── homescreen.dart
-
-
-🌐 API
+    
+**🌐 API**
 GET https://randomuser.me/api/?results=50
+Fields Used:
+name.first / name.last → Full name
+email → Email address
+picture.medium → Profile image
 
-
-Fields used:
-name.first / name.last — Full name
-email — Email address
-picture.medium — Profile image
-
-
-👨💻 Author
+**👨‍💻 Author**
 Hash Coder
 
-
 📄 License
+
 This project is licensed under the MIT License.
-
-
-=======
-# User-Directory
->>>>>>> f08d638a61314020e19d1477c129798d5632c154
