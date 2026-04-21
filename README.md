@@ -1,4 +1,4 @@
-**📒 User Directory App**
+****📒 User Directory App****
 
 A Flutter application that fetches and displays random user profiles from the Random User API in a modern dark-themed grid layout.
 
