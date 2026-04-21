@@ -19,14 +19,20 @@ Random User API (Data source)
 **📁 Project Structure**
 lib/
 ├── main.dart
+
 ├── model/
+
 │   └── DataModel.dart
+
 └── screens/
-    └── homescreen.dart
+
+  └── homescreen.dart
     
 **🌐 API**
 GET https://randomuser.me/api/?results=50
-Fields Used:
+
+**Fields Used:**
+
 name.first / name.last → Full name
 email → Email address
 picture.medium → Profile image
